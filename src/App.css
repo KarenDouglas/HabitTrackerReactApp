@@ -1,0 +1,20 @@
+#apple {
+
+    width: 200px;
+    height: auto;
+
+}
+
+#google {
+
+    width: 200px;
+    height: auto;
+
+}
+
+#famobile {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 350px;
+    color: rgb(36, 2, 54);
+}

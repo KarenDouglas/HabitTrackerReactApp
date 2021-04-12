@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 
 class Directory extends Component {
-    constructor(prop){
+    constructor(prop) {
         super(props);
         this.state = {
 
         }
     }
-    render(){
-        return (
-
-        );
+    render() {
+        return
     }
 }
 

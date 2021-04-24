@@ -1,0 +1,137 @@
+.hr {
+    background-color:#d5c8ff;
+
+}
+
+
+.get-started {
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+}
+
+.get-started:hover{
+    margin-bottom: 1.7rem;
+    background-color: #b9a1e6;
+} 
+
+
+.form-text {
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+textarea:focus, input[type= "email"]:focus, input[type= "password"]:focus,input[placeholder="Username"]:focus {
+    background-color: #1f0452;
+    color: white;
+}
+
+
+input[type= "email"],input[placeholder="Username"], input[type= "password"]{
+    background-color: #a38af7;
+    color: black;
+}
+
+form{
+    background-size: cover;
+    background-image: url("components/images/cool-background.png");
+    margin: 50px;
+    padding: 50px;
+}
+input::-webkit-input-placeholder {
+    color: white !important;
+    }
+
+.shinyButton{
+        position: relative;
+        padding: 20px 50px;
+        text-decoration: none;
+        color: white;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: 'Varela Round', sans-serif;
+        letter-spacing: 4px;
+        overflow: hidden;
+        box-shadow: 0 5px 5px rgba(0,0,0.2);
+        margin-bottom: 2rem;
+}
+.shinyButton:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: rgba(204, 189, 189, 0.1);
+}
+.shinyButton:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    }
+    .shinyButton:hover:after{
+        left: 100%;
+    }
+    .shinyButton span{
+        position: absolute;
+        display: block;
+        transition: 0.5s ease;
+        }
+     .shinyButton span:nth-child(1)
+        {
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: #fff;
+        }
+        .shinyButton:hover span:nth-child(1)
+        {
+        width: 100%;
+        transform: translateX(100%);
+        }
+        .shinyButton span:nth-child(3)
+        {
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 1px;
+        background: #fff;
+        }
+        .shinyButton:hover span:nth-child(3)
+        {
+        width: 100%;
+        transform: translateX(-100%);
+        }
+        .shinyButton span:nth-child(2)
+        {
+        top: 0;
+        left: 0;
+        width: 1px;
+        height: 0;
+        background: #fff;
+        }
+        .shinyButton:hover span:nth-child(2)
+        {
+        height: 100%;
+        transform: translateY(100%);
+        }
+        .shinyButton span:nth-child(4)
+        {
+        bottom: 0;
+        right: 0;
+        width: 1px;
+        height: 0;
+        background: #fff;
+        }
+        .shinyButton:hover span:nth-child(4)
+        {
+        height: 100%;
+        transform: translateY(-100%);
+        }
+       

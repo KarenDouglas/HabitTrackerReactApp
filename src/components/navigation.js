@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
 const Navigation = (props) => {
@@ -24,3 +24,5 @@ const Navigation = (props) => {
 }
 
 export default Navigation;
+
+
